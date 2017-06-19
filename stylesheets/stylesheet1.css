@@ -1,0 +1,609 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:#236982;
+}
+
+.container {
+
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	width:100%;
+	background-color:;
+	margin:;
+	padding:0;
+
+}
+
+#item1 {
+	width:90%;
+	background-color:;
+	margin:auto;
+}
+
+#mylogo {
+	display:block;
+	margin-left:40%;
+	margin-right:42%;
+	margin-top:5%;
+	margin-bottom:6%;
+	width:16%;
+	opacity:0.9;
+	animation-name:logo;
+	animation-duration:8s;
+
+	animation-timing-function:ease-in-out;
+
+
+}
+
+
+#welcomemsg {
+	text-align:center;
+	background-color:;
+	padding:2%;
+	border-top:2px solid white;
+	font-weight:6px;
+	border-bottom:2px solid black;
+	border-width:5px;
+	opacity:0.9;
+	border-width:;
+	margin-left:30%;
+	margin-right:30%;
+	font-family: 'Crimson Text', serif;
+	font-size:2em;
+	letter-spacing:0.11em;
+	color:white;
+	text-shadow:1px 1px 1px black;
+	animation-name:welcome;
+	animation-duration:8s;
+	animation-timing-function:ease-in-out;
+	word-spacing:0.5em;
+
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+#scrolldwn {
+	
+	margin-left:46%;
+	opacity:0.5;
+	margin-top:0.7%;
+	animation-name:scroll;
+	animation-duration:2s;
+	animation-iteration-count:infinite;
+	animation-direction:alternate;
+	animation-direction:ease;
+}
+
+@keyframes scroll {
+	from {
+		margin-top:0.7%;
+		opacity:0.5;
+	}
+	to {
+		margin-top:3%;
+		opacity:1;
+	}
+}
+
+
+@keyframes logo {
+	from {
+		opacity:0;
+
+	}
+	to {
+		opacity:0.9;
+	}
+}
+
+@keyframes welcome {
+	from {
+		
+		opacity:0;
+		margin-left:0;
+		margin-right:0;
+
+	}
+	to {
+		
+		opacity:0.9;
+		margin-left:30%;
+		margin-right:30%;
+	}
+}
+
+
+
+
+@media screen and (max-width:860px){
+	
+	#mylogo {
+		display:block;
+		margin-left:40%;
+		margin-right:42%;
+		margin-top:5%;
+		margin-bottom:6%;
+		width:20%;
+		opacity:0.9;
+		animation-name:logo;
+		animation-duration:8s;
+
+		animation-timing-function:ease-in-out;
+
+
+	}
+
+
+	#welcomemsg {
+		text-align:center;
+		background-color:;
+		padding:2%;
+		border-top:2px solid white;
+		font-weight:6px;
+		border-bottom:2px solid black;
+		border-width:5px;
+		opacity:0.9;
+		border-width:;
+		margin-left:15%;
+		margin-right:15%;
+		font-family: 'Crimson Text', serif;
+		font-size:1.8em;
+		letter-spacing:0.11em;
+		color:white;
+		text-shadow:1px 1px 1px black;
+		animation-name:welcome;
+		animation-duration:8s;
+		animation-timing-function:ease-in-out;
+		word-spacing:0.5em;
+
+	}
+	#myworks {
+		font-size:1.8em;
+		letter-spacing:0.10em;
+	}
+
+	#ablout {
+		font-size:1.8em;
+		letter-spacing:0.10em;
+	}	
+
+	@keyframes logo {
+		from {
+			opacity:0;
+
+		}
+		to {
+			opacity:0.9;
+		}
+	}
+
+	@keyframes welcome {
+		from {
+			
+			opacity:0;
+			margin-left:0;
+			margin-right:0;
+
+		}
+		to {
+			
+			opacity:0.9;
+			margin-left:15%;
+			margin-right:15%;
+		}
+	}
+
+}
+
+@media screen and (max-width:610px){
+	
+	#mylogo {
+		display:block;
+		margin-left:37%;
+		margin-right:42%;
+		margin-top:5%;
+		margin-bottom:6%;
+		width:25%;
+		opacity:0.9;
+		animation-name:logo;
+		animation-duration:8s;
+
+		animation-timing-function:ease-in-out;
+
+
+	}
+
+
+	#welcomemsg {
+		text-align:center;
+		background-color:;
+		padding:2%;
+		border-top:2px solid white;
+		font-weight:6px;
+		border-bottom:2px solid black;
+		border-width:5px;
+		opacity:0.9;
+		border-width:;
+		margin-left:20%;
+		margin-right:20%;
+		font-family: 'Crimson Text', serif;
+		font-size:1.9em;
+		letter-spacing:0.11em;
+		color:white;
+		text-shadow:1px 1px 1px black;
+		animation-name:welcome;
+		animation-duration:8s;
+		animation-timing-function:ease-in-out;
+		word-spacing:0.5em;
+
+	}
+	#myworks {
+		font-size:1.9em;
+	}
+	#ablout {
+		font-size:1.9em;
+	}
+
+	#scrolldwn {
+		
+		margin-left:43%;
+		opacity:0.5;
+		margin-top:0.7%;
+		animation-name:scroll;
+		animation-duration:2s;
+		animation-iteration-count:infinite;
+		animation-direction:alternate;
+		animation-direction:ease;
+	}
+
+	@keyframes scroll {
+		from {
+			margin-top:0.7%;
+			opacity:0.5;
+		}
+		to {
+			margin-top:3%;
+			opacity:1;
+		}
+	}
+
+	@keyframes logo {
+		from {
+			opacity:0;
+
+		}
+		to {
+			opacity:0.9;
+		}
+	}
+
+	@keyframes welcome {
+		from {
+			
+			opacity:0;
+			margin-left:0;
+			margin-right:0;
+
+		}
+		to {
+			
+			opacity:0.9;
+			margin-left:20%;
+			margin-right:20%;
+		}
+	}
+
+}
+
+@media screen and (max-width:550px){
+	
+	#mylogo {
+		display:block;
+		margin-left:30%;
+		margin-right:42%;
+		margin-top:5%;
+		margin-bottom:6%;
+		width:40%;
+		opacity:0.9;
+		animation-name:logo;
+		animation-duration:8s;
+
+		animation-timing-function:ease-in-out;
+
+
+	}
+
+
+	#welcomemsg {
+		text-align:center;
+		background-color:;
+		padding:2%;
+		border-top:2px solid white;
+		font-weight:6px;
+		border-bottom:2px solid black;
+		border-width:5px;
+		opacity:0.9;
+		border-width:;
+		margin-left:0;
+		margin-right:0;
+		font-family: 'Crimson Text', serif;
+		font-size:1.7em;
+		letter-spacing:0.11em;
+		color:white;
+		text-shadow:1px 1px 1px black;
+		animation-name:welcome;
+		animation-duration:8s;
+		animation-timing-function:ease-in-out;
+		word-spacing:0.5em;
+
+	}
+
+	#myworks {
+		font-size:1.7em;
+	}
+	#ablout {
+		font-size:1.7em;
+	}
+
+	@keyframes logo {
+		from {
+			opacity:0;
+
+		}
+		to {
+			opacity:0.9;
+		}
+	}
+
+	@keyframes welcome {
+		from {
+			
+			opacity:0;
+			margin-left:30%;
+			margin-right:30%;
+
+		}
+		to {
+			
+			opacity:0.9;
+			margin-left:0;
+			margin-right:0;
+		}
+	}
+
+}
+
+/* second page design */
+
+#item2 {
+	width:90%;
+	background-color:;
+	margin:auto;
+	margin-top:10%;
+	display:;
+}
+
+#about {
+	text-align:center;
+	font-family: 'Mogra', cursive;
+	font-size:1.8em;
+	letter-spacing:0.11em;
+	color:black;
+	text-shadow:1px 1px 1px white;
+}
+
+#aboutmyself {
+	text-align:center;
+	color:white;
+	font-size:1.7em;
+	text-shadow:;
+	font-family: 'Mogra', cursive;
+	font-weight:8px;
+	display:;
+	opacity:0;
+	animation-duration:2s;
+
+}
+
+/* third page styles */
+
+#item3{
+
+	width:90%;
+	margin:auto;
+	background-color:;
+	display:-webkit-flex;
+	display:flex;
+	-webkit-flex-wrap: wrap;
+	flex-wrap: wrap;
+	background-color:;
+	margin:;
+	padding:0;
+	-webkit-justify-content: ;
+	justify-content: ;
+	margin-top:10%;
+}
+
+#myworks {
+	width:100%;
+	text-align:center;
+	font-family: 'Mogra', cursive;
+	font-size:1.8em;
+	letter-spacing:0.2em;
+	color:black;
+	text-shadow:2px 2px 2px white;
+}
+
+#project1 {
+	width:40%;
+	margin:5%;
+	background-color:;
+	height:300px;
+	opacity:;
+	
+}
+
+#romancalc {
+	width:100%;
+	height:300px;
+	opacity:0;
+}
+#project2 {
+	margin:5%;
+	width:40%;
+	background-color:;
+	height:250px;
+}
+
+#randomquote {
+	width:100%;
+	height:300px;
+	opacity:0;
+}
+
+#project3 {
+	margin:5%;
+	width:40%;
+	background-color:;
+	height:300px;
+}
+#weathermap {
+	width:100%;
+	height:300px;
+	opacity:0;
+}
+
+#project4 {
+	margin:5%;
+	width:40%;
+	background-color:;
+	height:300px;
+}
+
+#mykalam {
+	width:100%;
+	height:300px;
+	opacity:0;
+}
+
+#romancalc:hover, #weathermap:hover, #mykalam:hover, #randomquote:hover {
+	width:110%;
+	height:310px;
+}
+
+@media screen and (max-width:890px){
+	#project1, #project2, #project3, #project4 {
+		width:100%;
+		height:auto;
+	}
+
+	#weathermap {
+		margin-top:5%;
+	}
+	#project2 {
+		margin-bottom:3%;
+	}
+
+	#myworks {
+		font-size:1.5em;
+		letter-spacing:0.10em;
+	}
+
+	#about {
+		font-size:1.5em;
+		letter-spacing:0.10em;
+	}
+
+	
+}
+
+@media screen and (max-width:600px){
+
+
+	#myworks {
+		font-size:1.4em;
+		letter-spacing:0.10em;
+	}
+
+	#about {
+		font-size:1.4em;
+		letter-spacing:0.10em;
+	}
+
+	#aboutmyself {
+		font-size:1.3em;
+	}
+}
+
+/* footer style and contact style */
+
+#item4 {
+	width:90%;
+	background-color:;
+	margin:auto;
+}
+
+#contact {
+	width:100%;
+	text-align:center;
+	font-family: 'Mogra', cursive;
+	font-size:1.8em;
+	letter-spacing:0.2em;
+	color:black;
+	text-shadow:2px 2px 2px white;
+}
+
+#footer {
+	width:100%;
+}
+
+#git{
+	margin:3%;
+
+}
+#insta {
+	margin:3%;
+}
+#contain{
+	text-align:center;
+} 
+
+#fb:hover, #git:hover, #insta:hover {
+	color:white;
+}
+
+@media screen and (max-width:890px){
+	
+	#contact {
+		width:100%;
+		text-align:center;
+		font-family: 'Mogra', cursive;
+		font-size:1.7em;
+		letter-spacing:0.2em;
+		color:black;
+		text-shadow:2px 2px 2px white;
+	}
+	
+}
+
+@media screen and (max-width:600px){
+
+	#contact {
+		width:100%;
+		text-align:center;
+		font-family: 'Mogra', cursive;
+		font-size:1.4em;
+		letter-spacing:0.2em;
+		color:black;
+		text-shadow:2px 2px 2px white;
+	}
+
+	
+}
